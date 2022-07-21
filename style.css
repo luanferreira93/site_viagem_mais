@@ -26,31 +26,13 @@ html{
 }
 
 /* -------------------Header-------------------------- */
-@keyframes slide{
-    0%{
-        background-image: url(./img/img3.jpg);
-    }
-   30%{
-        background-image: url(./img/img4.jpg);
-    }
-    50%{
-        background-image: url(./img/img5.jpg);
-    }
-    70%{
-        background-image: url(./img/img6.jpg);
-    }
-    100%{
-        background-image: url(./img/img7.jpg);
-    }
-}
 
 header{
     height: calc(100vh - 15rem);
+    background-image: url('./img/img6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    animation: slide 30s infinite alternate;
 }
 
 .title{
@@ -112,13 +94,37 @@ nav ul li+li{
  font-weight: 500;
 }
 
+/* -------------------Cards-------------------------- */
+
+.pacotes{
+    background-color: orangered;
+    padding: 2rem;
+}
+
+
+.pacotes .card{
+width: 25rem;
+height: 35rem;
+border-radius: 2rem 0 0 0;
+margin-left: 2rem;
+background-color: aqua;
+}
+
+.pacotes .card-img img{
+    border-radius: 2rem 0 0 0;
+}
 
 /* -------------------Query-------------------------- */
 
 @media (max-width:400px){
-  nav span{
-    margin-right: 0.5rem;
-  }
+    header nav{
+        flex-direction: column;
+    }
+
+    header nav span{
+        margin-bottom: 3rem;
+    }
+
 }
 
 @media (max-width:767px){
