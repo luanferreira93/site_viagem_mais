@@ -23,9 +23,12 @@ button{
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* -------------------Header-------------------------- */
+
+
 
 header{
     height: calc(100vh - 15rem);
@@ -84,6 +87,7 @@ nav ul li+li{
     margin-bottom: 8rem;
     font-size: 1.7rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .header-content .btn-header{
@@ -97,7 +101,7 @@ background-color: #f19839;
 /* -------------------Cards-------------------------- */
 
 .pacotes{
-    background-color: rgb(255, 227, 227);
+    background-color: #c2dddf;
     padding: 2rem 0;
     text-align: center;
 }
@@ -191,17 +195,29 @@ background-color: #fff;
 
 }
 
+@media (max-width:540px){
+    .pacotes-cards .card{
+        margin-right: 2rem;
+    }
+
+ 
+}
+
 @media (max-width:767px){
     nav{
         align-items: center;
     }
-
-   
+ 
 }
 
-@media (max-width:78px) and (max-width:979px){
-
-}
 @media (max-width:1200px){
+    .pacotes-cards .card{
+        margin-bottom: 2rem;
+    }
 
+
+    .pacotes-cards .card:nth-child(4){
+        margin-bottom: 0;
+    }
+   
 }
