@@ -63,6 +63,11 @@ nav ul li a{
     font-weight: 700;
 }
 
+nav ul li a:hover{
+    color: #f19839;
+    transition: all .4s ease-in-out;
+}
+
 nav ul li+li{
     margin-left: 1.5rem;
 }
@@ -176,6 +181,87 @@ background-color: #fff;
     border-bottom-right-radius: 0.5rem;
     margin-bottom: 1rem;
     background-color: #1d61dd;
+}
+
+/* -------------------Serviços-------------------------- */
+
+.servicos{
+    padding: 2rem 0;
+}
+
+.servicos .servicos-cards{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicos h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.servicos .card h2{
+  margin: 1rem 0;
+}
+
+.servicos .card{
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.servicos .card svg{
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+
+/* -------------------Contato-------------------------- */
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+.contato{
+    position: relative;
+    padding: 4rem;
+    background-color: #C2DDDF;
+}
+
+.contato .card-contato{
+    padding: 2rem;
+    width: 30rem;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: calc(0 - 50%);
+    left: calc(0 - 30rem);
+    z-index: 1;
+    border-radius: 0 1rem  1rem 0 ;
+}
+
+.contato  .card-contato h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contato .card-contato ul li{
+    margin-top: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+}
+
+.contato .card-contato ul svg{
+  margin-right: 1rem;
 }
 
 /* -------------------Query-------------------------- */

@@ -1,143 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Viagem mais+</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="background"></div>
-        <nav>
-            <!-- <img src="" alt="Logo Viagem mais+"> -->
-            <span class="title">Viagem mais+</span>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#pacotes">Pacotes</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <h1>Marcar uma viagem é marcar a sua vida para sempre.</h1>
-            <p >Vamos viajar!. O embarque está próximo. juntasse a essa a nova experiencia</p>
-            <a class="btn-header" href="">Eu quero!!!</a>
-        </div>
+      <div class="background"></div>
+      <nav>
+        <!-- <img src="" alt="Logo Viagem mais+"> -->
+        <span class="title">Viagem mais+</span>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#pacotes">Pacotes</a></li>
+          <li><a href="#servico">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <h1>Marcar uma viagem é marcar a sua vida para sempre.</h1>
+        <p>
+          Vamos viajar!. O embarque está próximo. juntasse a essa a nova
+          experiencia
+        </p>
+        <a class="btn-header" href="">Eu quero!!!</a>
+      </div>
     </header>
 
-    <section class="pacotes">
-        <h1>Conheça nossos pacotes</h1>
-        <div class="pacotes-cards" id="pacotes">
-            <div class="card">
-                <div class="card-img">
-                    <div class="card-tag-top">
-                        <span>Promoção</span>
-                    </div>
-                    <div class="card-tag-preco">
-                        <span>R$ 1500.00</span>
-                    </div>
-                    <img src="./img/miami.jpg" alt="">
-                </div>
-               <div class="card-content">
-                <h2>Miami 5 noites - Hotel 5 estrelas</h2>
-                <ul>
-                    <li><i data-feather="coffee"></i>
-                    Café da manha
-                    </li>
-                    <li><i data-feather="wifi"></i>
-                    Wifi gratuito
-                    </li>
-                    <li><i data-feather="dribbble"></i>
-                    Area de recreação
-                    </li>
-                </ul>
-               </div>
+    <section class="pacotes" id="pacotes">
+      <h1>Conheça nossos pacotes</h1>
+      <div class="pacotes-cards">
+        <div class="card">
+          <div class="card-img">
+            <div class="card-tag-top">
+              <span>Promoção</span>
             </div>
-            <div class="card">
-                <div class="card-img">
-                    <div class="card-tag-top">
-                        <span>Promoção</span>
-                    </div>
-                    <div class="card-tag-preco">
-                        <span>R$ 1500.00</span>
-                    </div>
-                    <img src="./img/img7.jpg" alt="">
-                </div>
-               <div class="card-content">
-                <h2>Paris - Hotel 5 estrelas</h2>
-                <ul>
-                    <li><i data-feather="coffee"></i>
-                    Café da manha
-                    </li>
-                    <li><i data-feather="wifi"></i>
-                    Wifi gratuito
-                    </li>
-                    <li><i data-feather="dribbble"></i>
-                    Area de recreação
-                    </li>
-                </ul>
-               </div>
+            <div class="card-tag-preco">
+              <span>R$ 1500.00</span>
             </div>
-            <div class="card">
-                <div class="card-img">
-                    <div class="card-tag-top">
-                        <span>Promoção</span>
-                    </div>
-                    <div class="card-tag-preco">
-                        <span>R$ 1500.00</span>
-                    </div>
-                    <img src="./img/img5.jpg" alt="">
-                </div>
-               <div class="card-content">
-                <h2>Rio de janeiro - Hotel 5 estrelas</h2>
-                <ul>
-                    <li><i data-feather="coffee"></i>
-                    Café da manha
-                    </li>
-                    <li><i data-feather="wifi"></i>
-                    Wifi gratuito
-                    </li>
-                    <li><i data-feather="dribbble"></i>
-                    Area de recreação
-                    </li>
-                </ul>
-               </div>
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <div class="card-tag-top">
-                        <span>Promoção</span>
-                    </div>
-                    <div class="card-tag-preco">
-                        <span>R$ 1500.00</span>
-                    </div>
-                    <img src="./img/portugal.jpg" alt="">
-                </div>
-               <div class="card-content">
-                <h2>Lisboa - Hotel 5 estrelas</h2>
-                <ul>
-                    <li><i data-feather="coffee"></i>
-                    Café da manha
-                    </li>
-                    <li><i data-feather="wifi"></i>
-                    Wifi gratuito
-                    </li>
-                    <li><i data-feather="dribbble"></i>
-                    Area de recreação
-                    </li>
-                </ul>
-               </div>
-            </div>
+            <img src="./img/miami.jpg" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Miami 5 noites - Hotel 5 estrelas</h2>
+            <ul>
+              <li>
+                <i data-feather="coffee"></i>
+                Café da manha
+              </li>
+              <li>
+                <i data-feather="wifi"></i>
+                Wifi gratuito
+              </li>
+              <li>
+                <i data-feather="dribbble"></i>
+                Area de recreação
+              </li>
+            </ul>
+          </div>
         </div>
-     
-        
+        <div class="card">
+          <div class="card-img">
+            <div class="card-tag-top">
+              <span>Promoção</span>
+            </div>
+            <div class="card-tag-preco">
+              <span>R$ 1500.00</span>
+            </div>
+            <img src="./img/img7.jpg" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Paris - Hotel 5 estrelas</h2>
+            <ul>
+              <li>
+                <i data-feather="coffee"></i>
+                Café da manha
+              </li>
+              <li>
+                <i data-feather="wifi"></i>
+                Wifi gratuito
+              </li>
+              <li>
+                <i data-feather="dribbble"></i>
+                Area de recreação
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-tag-top">
+              <span>Promoção</span>
+            </div>
+            <div class="card-tag-preco">
+              <span>R$ 1500.00</span>
+            </div>
+            <img src="./img/img5.jpg" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Rio de janeiro - Hotel 5 estrelas</h2>
+            <ul>
+              <li>
+                <i data-feather="coffee"></i>
+                Café da manha
+              </li>
+              <li>
+                <i data-feather="wifi"></i>
+                Wifi gratuito
+              </li>
+              <li>
+                <i data-feather="dribbble"></i>
+                Area de recreação
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-tag-top">
+              <span>Promoção</span>
+            </div>
+            <div class="card-tag-preco">
+              <span>R$ 1500.00</span>
+            </div>
+            <img src="./img/portugal.jpg" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Lisboa - Hotel 5 estrelas</h2>
+            <ul>
+              <li>
+                <i data-feather="coffee"></i>
+                Café da manha
+              </li>
+              <li>
+                <i data-feather="wifi"></i>
+                Wifi gratuito
+              </li>
+              <li>
+                <i data-feather="dribbble"></i>
+                Area de recreação
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
+    <section class="servicos" id="servico">
+      <h1 class="servicos-title">Serviços</h1>
+      <div class="servicos-cards">
+        <div class="card">
+          <i data-feather="map"></i>
+          <h2>Tours guiados</h2>
+          <p>
+            Os tours guiados são realizados com auxílio de um guia, que dar
+            informações sobre o local e conduz o trajetória
+          </p>
+        </div>
+        <div class="card">
+          <i data-feather="camera"></i>
+          <h2>Fotografia profissional</h2>
+          <p>
+            Nossos fotógrafos estão acostumados a registra os melhores momentos
+            das viagens para que você aproveite e paisagem sem se preocupar
+          </p>
+        </div>
+        <div class="card">
+          <i data-feather="navigation"></i>
+          <h2>Aluguel de veículos</h2>
+          <p>
+            Para o clientes que preferem explorar o ambiente sozinhos e curtem a
+            liberdade, oferecemos o serviços de aluguel de veículos com preços
+            super em conta
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="card-contato">
+        <h1>Contato</h1>
+        <ul>
+          <li><i data-feather="home"></i>Rua das Americas, 100</li>
+          <li><i data-feather="mail"></i>Rua das Americas, 100</li>
+          <li><i data-feather="phone"></i>(00) 0000 - 0000</li>
+        </ul>
+      </div>
+      <div id="map"></div>
+    </section>
+
     <script>
-        feather.replace()
-      </script>
-</body>
+      feather.replace();
+
+      function initMap() {
+        const sao_paulo = { lat: -23.61823, lng: -46.635197 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: sao_paulo,
+        });
+        const marker = new google.maps.Marker({
+          position: sao_paulo,
+          map: map,
+        });
+      }
+
+      window.initMap = initMap;
+    </script>
+
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    ></script>
+  </body>
 </html>
